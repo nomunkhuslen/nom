@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>hhe</title>
+  <style>
+    .hhe-container {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-template-rows: repeat(3, 100px);
+      gap: 30px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .hhe-item {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(121, 89, 128);
+    }
+
+    @media (max-width: 600px) {
+      .hhe-container {
+        gap: 10px;
+      }
+    }
+
+    @media only screen and (max-width: 400px) {
+  .hhe-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+   
+  </style>
+</head>
+<body>
+  <div class="hhe-container">
+    <div class="hhe-item"></div>
+    <div class="hhe-item"></div>
+    <div class="hhe-item"></div>
+    <div class="hhe-item"></div>
+    <div class="hhe-item"></div>
+    <div class="hhe-item"></div>
+    <div class="hhe-item"></div>
+    <div class="hhe-item"></div>
+    <div class="hhe-item"></div>
+  </div>
+</body>
+</html>
